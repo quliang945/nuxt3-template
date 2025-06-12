@@ -92,9 +92,8 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      // app.name
-      title: '考生报名',
-      // titleTemplate: '%s - Nuxt 3 Awesome Starter',
+		  title: 'nuxt3-template',
+		  titleTemplate: '%s - Nuxt 3 Awesome Starter',
       meta: [
         // { name: 'apple-mobile-web-app-capable', content: 'yes' },
         { name: 'mobile-web-app-capable', content: 'yes' },
@@ -103,8 +102,8 @@ export default defineNuxtConfig({
           content:
             'width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'
         },
-        { name: 'keywords', content: '考生报名' },
-        { name: 'description', content: '考生报名' }
+        { name: 'keywords', content: 'nuxt3-template Nuxt3 vue3 NaiveUI UnoCSS Pinia VueUse useFetch' },
+        { name: 'description', content: 'Nuxt3+vue3 + NaiveUI + UnoCSS + Pinia + VueUse + useFetch pc+移动端 模板' }
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     }
