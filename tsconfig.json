@@ -1,0 +1,32 @@
+{
+	// https://nuxt.com/docs/guide/concepts/typescript
+	"extends": "./.nuxt/tsconfig.json",
+	"compilerOptions": {
+	  // "baseUrl": ".",//项目根目录
+	  "module": "ESNext", //模块类型
+	  "target": "ESNext", //目标版本
+	  "lib": ["DOM", "ESNext"], //库
+	  "strict": true, //严格模式
+	  "skipLibCheck": true, //跳过库检查
+	  "esModuleInterop": true, //模块互操作
+	  "noImplicitAny": false, //隐式any
+	  "allowSyntheticDefaultImports": true, //允许合成默认导入
+	  "jsx": "preserve",//jsx模式
+	  "allowJs": true, // 允许编译 JS 文件
+	  "moduleResolution": "node", //模块解析
+	  "isolatedModules": true, //隔离模块
+	  "resolveJsonModule": true, //解析json模块
+	  "noUnusedLocals": false, //未使用局部变量
+	  "strictNullChecks": true, //严格空检查
+	  "forceConsistentCasingInFileNames": true, //文件名一致性
+	  "noEmit": true, // 这对于 Nuxt 项目通常是必需的，因为 Nuxt 会处理输出
+	  "jsxImportSource": "vue",
+	  // "paths": {
+	  //   "~/*": ["./*"],
+	  //   "@/*": ["./src/*"]
+	  // },
+	  "types": ["node","naive-ui/volar"]
+	},
+	// "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+  }
+  
